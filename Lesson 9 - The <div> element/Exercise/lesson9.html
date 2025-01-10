@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red-square {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
+
+      .green-circle {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        border-radius: 50px;
+      }
+
+      .ccc-box {
+        border: 1px solid gray;
+        display: inline-block;
+        width: 250px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+      }
+
+      .yt-music {
+        background-color: rgb(39, 39, 39);
+        color: white;
+        display: inline-block;
+        padding: 20px;
+      }
+
+      .yt-music-title {
+        font-size: 20px;
+        font-family: Arial;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      .yt-music-description {
+        font-size: 14px;
+        font-family: Arial;
+        width: 330px;
+        margin: 0;
+        color: gray;
+      }
+
+      .cat-box {
+        display: inline-block;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 6px;
+      }
+
+      .cat-image {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 20px;
+        vertical-align: middle;
+      }
+
+      .cat-input {
+        vertical-align: middle;
+        border: none;
+        width: 300px;
+      }
+
+      .cat-input::placeholder {
+        font-family: Arial;
+      }
+
+      .tweet-button {
+        vertical-align: middle;
+        font-family: Arial;
+        height: 30px;
+        width: 60px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(28, 134, 255);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .tweet-button:hover {
+        opacity: 0.9;
+      }
+
+      .tweet-button:active {
+        opacity: 0.7;
+      }
+
+      .cat-box2 {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        height: 300px;
+        width: 200px;
+        margin-right: 8px;
+      }
+
+      .cat-box2-img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
+
+      .cat-name {
+        margin: 0;
+        margin-top: 5px;
+        padding-left: 10px;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .cat-friends {
+        margin: 0;
+        padding-left: 10px;
+        margin-top: 10px;
+        font-family: Arial;
+        font-size: 14px;
+      }
+
+      .add-friend {
+        height: 30px;
+        width: 90px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: rgb(0, 89, 255);
+        color: white;
+        border: none;
+        border-radius: 6px;
+      }
+
+      .google-img-div {
+        text-align: center;
+      }
+
+      .google-img {
+        height: 100px;
+      }
+
+      .google-input-div {
+        text-align: center;
+      }
+
+      .google-input {
+        width: 600px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding-left: 15px;
+      }
+
+      .google-button {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 50px;
+      }
+
+      .google-button1 {
+        height: 35px;
+        border: none;
+        background-color: rgb(206, 206, 206);
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red-square"></div>
+    <br />
+    <hr />
+
+    <div class="green-circle"></div>
+    <br />
+    <hr />
+
+    <div class="ccc-box">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <br />
+    <hr />
+
+    <div class="yt-music">
+      <p class="yt-music-title">Install YouTube Music</p>
+      <p class="yt-music-description">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <br />
+    <hr />
+
+    <div class="cat-box">
+      <img class="cat-image" src="images.jpeg" alt="" />
+      <input class="cat-input" type="text" placeholder="What's Happening?" />
+      <button class="tweet-button">Tweet</button>
+    </div>
+    <br />
+    <hr />
+
+    <div class="cat-box2">
+      <img class="cat-box2-img" src="images.jpeg" alt="">
+      <p class="cat-name">Oliver</p>
+      <p class="cat-friends">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+    <div class="cat-box2">
+      <img class="cat-box2-img" src="download.jpeg" alt="">
+      <p class="cat-name">Mimi</p>
+      <p class="cat-friends">3 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+    <div class="cat-box2">
+      <img class="cat-box2-img" src="download (1).jpeg" alt="">
+      <p class="cat-name">Rex</p>
+      <p class="cat-friends">4 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    <br />
+    <hr />
+
+    <div class="google-img-div">
+      <img class="google-img" src="878365c5ec7b15f95fb2faca90246fd6.png" alt="">
+    </div>
+    <div class="google-input-div">
+      <input class="google-input" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <div class="google-button">
+      <button class="google-button1">Google Search</button>
+      <button class="google-button1">I'm Feeling Lucky</button>
+    </div>
+  </body>
+</html>
