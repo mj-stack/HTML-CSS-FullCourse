@@ -1,0 +1,19 @@
+.model3 {
+  font-family: "Montserrat", serif;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.order-online {
+  font-family: "Montserrat", serif;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.touchless-delivery {
+  text-decoration: underline;
+}

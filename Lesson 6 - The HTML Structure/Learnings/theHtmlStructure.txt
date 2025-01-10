@@ -1,0 +1,1 @@
+In this lesson we have updated all the previous code with proper HTML structure and separate CSS files.

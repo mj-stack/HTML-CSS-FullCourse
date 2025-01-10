@@ -1,0 +1,123 @@
+.uber-button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.bootstrap-button-1 {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 110px;
+  border-radius: 2px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.bootstrap-button-2 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-style: solid;
+  height: 40px;
+  width: 110px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.linkedin-button-1 {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 40px;
+  width: 220px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.linkedin-button-2 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  border-radius: 20px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.amazon-url {
+  color: rgb(0, 113, 133);
+}
+
+.amazon-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.amazon-price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.amazon-button-1 {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.amazon-button-2 {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
