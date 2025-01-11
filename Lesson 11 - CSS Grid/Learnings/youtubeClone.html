@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *{
+        font-family: Roboto;
+      }
+
+      .yt-search {
+        display: block;
+      }
+
+      .thumbnail {
+        width: 100%;
+      }
+
+      .video-title {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+
+      .video-author {
+        margin: 0;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
+      
+      .video-stats {
+        margin: 0;
+        margin-left: 5px;
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
+
+      .profile-pic {
+        width: 40px;
+        border-radius: 40px;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+
+      .video-info {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+      }
+
+      .video-description {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="yt-search" type="text" placeholder="Search" />
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-1.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-1.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-2.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-2.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-3.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-3.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12M views · &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-4.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-4.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-stats">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-5.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-5.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">ThenX</p>
+            <p class="video-stats">20M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div>
+          <img class="thumbnail" src="thumbnail-6.webp" />
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="channel-6.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            </p>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
