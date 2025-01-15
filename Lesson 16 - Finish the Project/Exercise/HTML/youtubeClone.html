@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/video.css">
+    <link rel="stylesheet" href="../CSS/sidebar.css">
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="/Lesson 13 - Nested Flexbox/Learnings/Images/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="/Lesson 13 - Nested Flexbox/Learnings/Images/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input class="yt-search" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="../Images/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="../Images/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="../Images/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="../Images/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-div">
+          <img class="notifications-icon" src="../Images/notifications.svg" alt="">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notification</div>
+        </div>
+        <img class="current-user" src="../Images/my-channel.jpeg" alt="">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/home.svg" alt="">
+        <div class="sidebar-name">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/explore.svg" alt="">
+        <div class="sidebar-name">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/subscriptions.svg" alt="">
+        <div class="sidebar-name">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/originals.svg" alt="">
+        <div class="sidebar-name">Original</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/youtube-music.svg" alt="">
+        <div class="sidebar-name">YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="sidebar-img" src="../Images/library.svg" alt="">
+        <div class="sidebar-name">Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/n2RNcPRtAiY?si=nJylwckfIx9-PtKq">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-1.webp" />
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <div class="profile-pic-container">
+              <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-1.jpeg" alt="" />
+              <div class="video-tooltip">
+                <div class="tooltip-dp">
+                  <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-1.jpeg" alt="" />
+                </div>
+                <div class="tooltip-info">
+                  <div class="tooltip-info-div1">
+                    <p class="tooltip-info-text">Marques Brownlee</p>
+                  </div>
+                  <div class="tooltip-info-div2">
+                    <p class="tooltip-info-text">15M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/n2RNcPRtAiY?si=nJylwckfIx9-PtKq">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/mP0RAo9SKZk?si=rK2VkrzKV7mIiMSa">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-2.webp" />
+          </a>
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <div class="profile-pic-container">
+              <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-2.jpeg" alt="" />
+              <div class="video-tooltip">
+                <div class="tooltip-dp">
+                  <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-2.jpeg" alt="" />
+                </div>
+                <div class="tooltip-info">
+                  <div class="tooltip-info-div1">
+                    <p class="tooltip-info-text">Markiplier</p>
+                  </div>
+                  <div class="tooltip-info-div2">
+                    <p class="tooltip-info-text">5M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/mP0RAo9SKZk?si=rK2VkrzKV7mIiMSa">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9
+              </p>
+            </a>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/FgjPQQeTh1w?si=5kTIxMawdWGDsykY">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-3.webp" />
+          </a>
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-3.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/FgjPQQeTh1w?si=5kTIxMawdWGDsykY">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+            </a>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12M views · &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/094y1Z2wpJg?si=cKBSyM9In4pGZJV6">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-4.webp" />
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-4.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/094y1Z2wpJg?si=cKBSyM9In4pGZJV6">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-stats">519K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/86CQq3pKSUw?si=cskw2Hoais3H7cnE">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-5.webp" />
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-5.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/86CQq3pKSUw?si=cskw2Hoais3H7cnE">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+            </a>
+            <p class="video-author">ThenX</p>
+            <p class="video-stats">20M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/yXWw0_UfSFg?si=WNrU4pdLRnCVUZ4d">
+            <img class="thumbnail" src="/Lesson 12 - FLexbox/Learnings/Images/thumbnail-6.webp" />
+          </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="/Lesson 12 - FLexbox/Learnings/Images/channel-6.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/yXWw0_UfSFg?si=WNrU4pdLRnCVUZ4d">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+            </a>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/fNVa1qMbF9Y?si=VSELyR2cmf3l30yb">
+            <img class="thumbnail" src="../Images/thumbnail-7.webp" />
+          </a>
+          <div class="video-time">10:13</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-7.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/fNVa1qMbF9Y?si=VSELyR2cmf3l30yb">
+              <p class="video-title">
+                Why Planes Don't Fly Over Tibet
+              </p>
+            </a>
+            <p class="video-author">RealLifeLore</p>
+            <p class="video-stats">6.6M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/lFm4EM1juls?si=T82ADtEhv8Cp5hGo">
+            <img class="thumbnail" src="../Images/thumbnail-8.webp" />
+          </a>
+          <div class="video-time">7:12</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-8.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/lFm4EM1juls?si=T82ADtEhv8Cp5hGo">
+              <p class="video-title">
+                Inside The World's Biggest Passenger Plane
+              </p>
+            </a>
+            <p class="video-author">Tech Vision</p>
+            <p class="video-stats">3.7M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/ixmxOlcrlUc?si=22WLQDBXft6mGW3Q">
+            <img class="thumbnail" src="../Images/thumbnail-9.webp" />
+          </a>
+          <div class="video-time">13:17</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-9.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/ixmxOlcrlUc?si=22WLQDBXft6mGW3Q">
+              <p class="video-title">
+                The SECRET to Super Human STRENGTH
+              </p>
+            </a>
+            <p class="video-author">ThenX</p>
+            <p class="video-stats">20M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/R2vXbFp5C9o?si=l-2uZ0f8BvR5jQfX">
+            <img class="thumbnail" src="../Images/thumbnail-10.webp" />
+          </a>
+          <div class="video-time">7:53</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-10.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/R2vXbFp5C9o?si=l-2uZ0f8BvR5jQfX">
+              <p class="video-title">
+                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+              </p>
+            </a>
+            <p class="video-author">Business Insider</p>
+            <p class="video-stats">14M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/0nZuYyXET3s?si=tvMwSE6W0g2pHsTV">
+            <img class="thumbnail" src="../Images/thumbnail-11.webp" />
+          </a>
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-11.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/0nZuYyXET3s?si=tvMwSE6W0g2pHsTV">
+              <p class="video-title">
+                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+              </p>
+            </a>
+            <p class="video-author">Destination Tips</p>
+            <p class="video-stats">3M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-div">
+          <a href="https://youtu.be/9iMGFqMmUFs?si=C9j20jucIz7UnMrM">
+            <img class="thumbnail" src="../Images/thumbnail-12.webp">
+          </a>
+          <div class="video-time">4:51</div>
+        </div>
+        <div class="video-description">
+          <div class="profile-pic-div">
+            <img class="profile-pic" src="../Images/channel-12.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://youtu.be/9iMGFqMmUFs?si=C9j20jucIz7UnMrM">
+              <p class="video-title">
+                What would happen if you didn’t drink water? - Mia Nacamulli
+              </p>
+            </a>
+            <p class="video-author">TED-Ed</p>
+            <p class="video-stats">12M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
