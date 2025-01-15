@@ -1,0 +1,148 @@
+.thumbnail-div {
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.video-title {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.video-link {
+  text-decoration: none;
+  color: black;
+}
+
+.video-author {
+  margin: 0;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-stats {
+  margin: 0;
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.profile-pic-container {
+  position: relative;
+}
+
+.profile-pic {
+  width: 36px;
+  border-radius: 40px;
+  margin-top: 8px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.profile-pic-container:hover .video-tooltip{
+  opacity: 1;
+}
+
+.video-info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.video-description {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+}
+
+.video-tooltip {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: white;
+  height: 70px;
+  width: 200px;
+  position: absolute;
+  bottom: -70px;
+  /* left: 5px; */
+
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.tooltip-dp {
+  width: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-dp .profile-pic {
+  margin: 0;
+}
+
+.tooltip-info {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip-info-div1 {
+  flex: 1;
+
+  display: flex;
+  align-items: end;
+
+  font-weight: 500;
+}
+
+.tooltip-info-div2 {
+  flex: 1;
+
+  display: flex;
+  align-items: start;
+
+  color: gray;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.tooltip-info-text {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 14px;
+}
