@@ -1,0 +1,13 @@
+*{
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+  padding-left: 96px;
+  padding-top: 80px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+
+  background-color: rgb(250, 250, 250);
+}
